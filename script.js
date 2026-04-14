@@ -89,7 +89,7 @@ let totaldepense = 0;
 
 // Charger les données et initialiser au démarrage
 loadData();
-setupEventListeners();
+
 
 // ===== REVENUS =====
 function displayRevenu() {
