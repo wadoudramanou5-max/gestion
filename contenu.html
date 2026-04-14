@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de fric</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="solde ">
+            <h2>Solde actuel :
+              <br>
+             <span id="solde">0</span>Fcfa
+            </h2>
+        </div>
+    </div>
+   <h2>Transactions</h2>
+   <div class="revenu">
+     <h3>-Revenus</h3>
+     <ul id="revenu-list">
+        <!-- Les revenus seront ajoutés ici -->
+     </ul>
+     <div class="input-revenu">
+        <input type="text" id="revenu-description" placeholder="Description du revenu">
+        
+     </div>
+     <div class="montant-revenu">
+        <input type="number" id="revenu-amount" placeholder="Montant du revenu">
+     </div>
+     <div class="revenu-btn">
+        <button class="btn-revenu" id="add-revenu-btn">Ajouter Revenu</button>
+     </div>
+   </div>
+
+    <div class="depense">
+      <h3>-Dépenses</h3>
+      <ul id="depense-list">
+          <!-- Les dépenses seront ajoutées ici -->
+      </ul>
+      <div class="input-depense">
+          <input type="text" id="depense-description" placeholder="Description de la dépense">
+          
+      </div>
+      <div class="montant-depense">
+          <input type="number" id="depense-amount" placeholder="Montant de la dépense">
+      </div>
+      <div class="depense-btn">
+          <button class="btn-depense" id="add-depense-btn">Ajouter Dépense</button>
+      </div>
+    </div>
+    <div class="Totaux">
+        <h3>Totaux</h3>
+        <div class="total-revenu">
+            <h4>Revenus totaux: 
+                <br>
+                <br>
+                <span id="total-revenu">0</span>Fcfa
+            </h4>
+        </div>
+        <div class="total-depense">
+            <h4>Dépenses totales: 
+                <br>
+                <br>
+                <span id="total-depense">0</span>Fcfa
+                
+            </h4>
+        </div>
+    </div>
+    <div class="instructions">
+        <p>si vous cliquez sur le bouton "Enregistrer les données", vos informations seront sauvegardées.</p>
+        <p>Appuyer sur le bouton charger pour restaurer les données sauvegardées.</p>
+    </div>
+
+    <div class="save-btn">
+        <button id="save-btn">Enregistrer les données</button>
+    </div>
+
+    <div class="delete-btn">
+        <button id="clear-btn">Effacer les données</button>
+    </div>
+    
+    
+    <div class="footer">
+        <p>© 2024 Gestion de fric. Tous droits réservés.</p>
+        <p>Créé par RAMANOU wadoud </p>
+        
+    </div>
+     
+    
+
+   <script src="script.js"></script> 
+</body>
+</html>

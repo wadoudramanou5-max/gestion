@@ -1,0 +1,160 @@
+body{
+    background:linear-gradient(to right, #ff0000, #0000ff);
+    font-family: Arial, sans-serif;
+    
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+p{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+.container button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.container button:hover{
+    background-color: #0056b3;
+}
+h2{
+    color: #333;
+    margin-top: 30px;
+    text-align: center;
+}
+.revenu{
+    font-size: 24px;
+    color: #28a745;
+    text-align: center;
+    margin-top: 20px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+.depense{
+    font-size: 24px;
+    color: #dc3545;
+    text-align: center;
+    margin-top: 20px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+}
+.revenu-btn button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.depense-btn button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.revenu-btn button:hover{
+    background-color: #218838;
+}
+.depense-btn button:hover{
+    background-color: #c82333;
+}
+
+.total-revenu{
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    width: 30%;
+    border-radius: 8px;
+    padding: 10px;
+}
+.total-depense{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    width: 30%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+.footer p{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.save-btn button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.save-btn button:hover{
+    background-color: #0056b3;
+}
+
+.delete-btn button{
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.instructions p{
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+    margin-top: 20px;
+}
